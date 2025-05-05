@@ -118,14 +118,17 @@ The system components can be configured through environment variables:
 ## On Windows
 set UNPAYWALL_EMAIL=your.email@domain.com
 set HF_TOKEN=your_huggingface_token
+set NCBI_API_KEY=your_ncbi_api_key
 
 ## On macOS/Linux
 export UNPAYWALL_EMAIL=your.email@domain.com
 export HF_TOKEN=your_huggingface_token
+export NCBI_API_KEY=your_ncbi_api_key
 ```
 
 Available environment variables:
 - `UNPAYWALL_EMAIL`: Email for Unpaywall API access
+- `NCBI_API_KEY` : API key for NCBI
 - `CORE_API_KEY`: API key for CORE academic database (optional)
 - `HF_TOKEN`: Hugging Face token for private model access (optional)
 
